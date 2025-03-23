@@ -19,5 +19,12 @@
     "description": "My custom Neovim configurations and plugins",
     "skills": ["Lua"],
     "source": "https://github.com/alexknite/nvim"
+  },
+  {
+    "title": "ePortfolio (this site!)",
+    "imageSrc": "/assets/projects/eportfolio.png",
+    "description": "My personal ePortfolio",
+    "skills": ["React", "CSS"],
+    "source": "https://github.com/alexknite/my-portfolio"
   }
 ]
