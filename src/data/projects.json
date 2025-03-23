@@ -1,26 +1,23 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "/public/assets/projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "TCR Encoding",
+    "imageSrc": "/assets/projects/genomics.png",
+    "description": "Encode TCR seqences using alpha and beta CDR1-3 sequences and target sequences with MHC pseudo and epitope sequences",
+    "skills": ["Python"],
+    "source": "https://github.com/alexknite/tcr-encode-augment"
   },
   {
-    "title": "Project B",
-    "imageSrc": "/public/assets/projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Kattis Problems",
+    "imageSrc": "/assets/projects/kattis.png",
+    "description": "All of the Kattnis problems that I have ever solved",
+    "skills": ["Python", "Java", "C++"],
+    "source": "https://github.com/alexknite/kattis"
   },
   {
-    "title": "Project C",
-    "imageSrc": "/public/assets/projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "NVIM Configurations",
+    "imageSrc": "/assets/projects/nvim.png",
+    "description": "My custom Neovim configurations and plugins",
+    "skills": ["Lua"],
+    "source": "https://github.com/alexknite/nvim"
   }
 ]

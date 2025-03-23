@@ -15,17 +15,27 @@
   text-transform: uppercase;
 }
 
+.subtitle {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
 .content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   margin-top: 14px;
 }
 
 .skills {
-  width: 45%;
+  width: 100%;
+  height: 10%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 37px;
 }
 
@@ -57,7 +67,7 @@
 }
 
 .history {
-  width: 45%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -69,13 +79,15 @@
   align-items: center;
   gap: 17px;
   background: var(--color-start-gradient);
-  background: linear-gradient(90deg, var(--color-start-gradient) 0%, rgba(25, 55, 109, 0) 100%);
+  background: linear-gradient(90deg,
+      var(--color-start-gradient) 0%,
+      var(--color-about-gradient) 100%);
   border-radius: 10px;
   padding: 24px;
 }
 
 .historyItem img {
-  width: 50px;
+  width: 100px;
 }
 
 .historyItemDetails {

@@ -31,6 +31,9 @@ export const Navbar = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
+          <li>
+            <a href="assets/A_Nite_CV.pdf">CV</a>
+          </li>
         </ul>
       </div>
     </nav>

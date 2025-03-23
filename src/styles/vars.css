@@ -5,7 +5,14 @@
   --color-secondary: #a06cd5;
   --color-dark: #7251b5;
   --color-bg: #815ac0;
-  --color-start-gradient: #6247AA;
+  --color-start-gradient: #6247aa;
+  --color-menu-start-gradient: rgba(98, 71, 170, 0.2);
+  --color-menu-end-gradient: rgba(98, 71, 170, 1);
+  --color-about-gradient: rgba(175, 155, 232, 0.42);
+  --color-top-blur: rgba(193, 158, 224, 0.7);
+  --color-bottom-blur: rgba(210, 183, 229, 0.7);
+  /* --color-project-start-gradient: #b18fdb; */
+  /* --color-project-end-gradient: #965adc; */
 
   /* Fonts */
   --font-roboto: "Roboto";

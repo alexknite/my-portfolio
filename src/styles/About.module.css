@@ -48,7 +48,7 @@
   padding: 25px;
   background-image: linear-gradient(
     90deg,
-    rgba(175, 155, 232, 0.42) 0%,
+    var(--color-about-gradient) 0%,
     rgba(255, 255, 255, 0) 100%
   );
   background-size: 0 100%;

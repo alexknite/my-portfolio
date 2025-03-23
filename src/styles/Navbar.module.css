@@ -68,8 +68,8 @@
     border-radius: 10px;
     background: var(--color-start-gradient);
     background: linear-gradient(0deg,
-        rgba(98, 71, 170, 0.2) 0%,
-        rgba(98, 71, 170, 1) 100%);
+        var(--color-menu-start-gradient) 0%,
+        var(--color-menu-end-gradient) 100%);
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   }

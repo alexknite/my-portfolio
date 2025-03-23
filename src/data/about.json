@@ -1,0 +1,10 @@
+{
+  "imageSrc": "/assets/about/memoji_computer.jpg",
+  "items": [
+    {
+      "title": "Student",
+      "imageSrc": "/assets/about/cursorIcon.png",
+      "description": "Blah blah blah"
+    }
+  ]
+}
