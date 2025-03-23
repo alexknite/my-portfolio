@@ -7,8 +7,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  /* display: grid; */
-  /* grid-template-columns: repeat(2, 1fr); */
   width: 100vw;
   padding: 58px 10%;
   gap: 10px;
@@ -24,6 +22,49 @@
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 2px;
+}
+
+.wave {
+  font-size: 60px;
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(14deg);
+  }
+
+  20% {
+    transform: rotate(-8deg);
+  }
+
+  30% {
+    transform: rotate(14deg);
+  }
+
+  40% {
+    transform: rotate(-4deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .links {
@@ -62,6 +103,7 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
+    justify-content: center;
     gap: 23px;
   }
 
@@ -72,6 +114,6 @@
   }
 
   .links {
-    align-items: center;
+    justify-content: center;
   }
 }

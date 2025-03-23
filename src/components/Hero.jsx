@@ -10,7 +10,7 @@ export const Hero = () => {
         <p className={styles.description}>
           {hero.description}
         </p>
-        <a className={styles.contactBtn} href={`mailto:${hero.email}`}>
+        <a className={`${styles.contactBtn} ${styles.glowOnHover}`} href={`mailto:${hero.email}`}>
           Contact Me
         </a>
       </div>

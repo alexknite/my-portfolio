@@ -9,7 +9,7 @@
   {
     "title": "Kattis Problems",
     "imageSrc": "/assets/projects/kattis.png",
-    "description": "All of the Kattnis problems that I have ever solved",
+    "description": "All of the Kattis problems that I have ever solved",
     "skills": ["Python", "Java", "C++"],
     "source": "https://github.com/alexknite/kattis"
   },

@@ -1,18 +1,16 @@
 :root {
   /* Colors */
   --color-text: #fff;
-  --color-primary: #c19ee0;
-  --color-secondary: #a06cd5;
-  --color-dark: #7251b5;
-  --color-bg: #815ac0;
-  --color-start-gradient: #6247aa;
-  --color-menu-start-gradient: rgba(98, 71, 170, 0.2);
-  --color-menu-end-gradient: rgba(98, 71, 170, 1);
-  --color-about-gradient: rgba(175, 155, 232, 0.42);
-  --color-top-blur: rgba(193, 158, 224, 0.7);
-  --color-bottom-blur: rgba(210, 183, 229, 0.7);
-  /* --color-project-start-gradient: #b18fdb; */
-  /* --color-project-end-gradient: #965adc; */
+  --color-primary: #9f75c4;
+  --color-secondary: #8a62b2;
+  --color-dark: #a267e5;
+  --color-bg: #5f3f8c;
+  --color-blur: rgba(145, 107, 178, 0.7);
+  --color-glow: #521f7f;  
+  --color-about-start-gradient: #7147aa;
+  --color-about-end-gradient: rgba(163, 139, 232, 0.42);
+  --color-menu-start-gradient: rgba(113, 71, 170, 0.2);
+  --color-menu-end-gradient: #7147aa;
 
   /* Fonts */
   --font-roboto: "Roboto";

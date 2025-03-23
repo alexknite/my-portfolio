@@ -10,7 +10,9 @@ export const Contact = () => {
       <footer id="contact" className={styles.container}>
         <div className={styles.text}>
           <h2>Contact</h2>
-          <p>Say hello!</p>
+          <p>
+            Say hello! <span className={styles.wave}>👋</span>
+          </p>
         </div>
         <ul className={styles.links}>
           <li className={styles.link}>
@@ -19,19 +21,20 @@ export const Contact = () => {
           </li>
           <li className={styles.link}>
             <FaLinkedin className={styles.icon} />
-            <a href="https://linkedin.alexnite.com">
-              https://linkedin.alexnite.com
+            <a href="https://www.linkedin.com/in/alexknite/">
+              linkedin.com/in/alexknite
             </a>
           </li>
           <li className={styles.link}>
             <FaGithub className={styles.icon} />
-            <a href="https://github.alexnite.com">
-              https://github.alexnite.com
-            </a>
+            <a href="https://github.com/alexknite">github.com/alexknite</a>
           </li>
         </ul>
       </footer>
-      <p className={styles.credits}>Made with ❤️ by alexnite</p>
+      <div className={styles.credits}>
+        <p>Made with ❤️ by alexnite</p>
+        <p>Color design 🎨 by beau</p>
+      </div>
     </>
   );
 };

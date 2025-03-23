@@ -78,10 +78,12 @@
   flex-direction: row;
   align-items: center;
   gap: 17px;
-  background: var(--color-start-gradient);
-  background: linear-gradient(90deg,
-      var(--color-start-gradient) 0%,
-      var(--color-about-gradient) 100%);
+  background: var(--color-about-start-gradient);
+  background: linear-gradient(
+    90deg,
+    var(--color-about-start-gradient) -10%,
+    var(--color-about-end-gradient) 100%
+  );
   border-radius: 10px;
   padding: 24px;
 }
@@ -128,5 +130,9 @@
   .history {
     width: 100%;
     gap: 9px;
+  }
+
+  .historyItem img {
+    display: none;
   }
 }
