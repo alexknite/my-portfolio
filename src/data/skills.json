@@ -26,5 +26,13 @@
   {
     "title": "Lua",
     "imageSrc": "/assets/skills/lua.png"
+  },
+  {
+    "title": "Ruby",
+    "imageSrc": "/assets/skills/ruby.png"
+  },
+  {
+    "title": "Rails",
+    "imageSrc": "/assets/skills/rails.png"
   }
 ]
