@@ -26,5 +26,12 @@
     "description": "My personal ePortfolio",
     "skills": ["React", "CSS"],
     "source": "https://github.com/alexknite/my-portfolio"
+  },
+  {
+    "title": " React + Rails Todo",
+    "imageSrc": "/assets/projects/ruby-todo.png",
+    "description": "A simple todo app to learn Ruby on Rails",
+    "skills": ["React", "CSS", "Ruby", "Rails"],
+    "source": "https://github.com/alexknite/ruby-todo"
   }
 ]

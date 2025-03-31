@@ -32,8 +32,8 @@ export const Contact = () => {
         </ul>
       </footer>
       <div className={styles.credits}>
-        <p>Made with ❤️ by alexnite</p>
         <p>Color design 🎨 by beau</p>
+        <p>Made with ❤️ by alexnite</p>
       </div>
     </>
   );

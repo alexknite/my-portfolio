@@ -22,6 +22,8 @@
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 2px;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .wave {
