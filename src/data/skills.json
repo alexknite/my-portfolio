@@ -8,6 +8,14 @@
     "imageSrc": "/assets/skills/css.png"
   },
   {
+    "title": "Chakra",
+    "imageSrc": "/assets/skills/chakra.png"
+  },
+  {
+    "title": "Javascript",
+    "imageSrc": "/assets/skills/javascript.png"
+  },
+  {
     "title": "React",
     "imageSrc": "/assets/skills/react.png"
   },
@@ -16,12 +24,16 @@
     "imageSrc": "/assets/skills/cpp.png"
   },
   {
-    "title": "Java",
-    "imageSrc": "/assets/skills/java.png"
-  },
-  {
     "title": "Python",
     "imageSrc": "/assets/skills/python.png"
+  },
+  {
+    "title": "Django",
+    "imageSrc": "/assets/skills/django.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "/assets/skills/java.png"
   },
   {
     "title": "Lua",

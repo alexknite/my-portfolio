@@ -28,10 +28,17 @@
     "source": "https://github.com/alexknite/my-portfolio"
   },
   {
-    "title": " React + Rails Todo",
+    "title": "React + Rails Todo",
     "imageSrc": "/assets/projects/ruby-todo.png",
     "description": "A simple todo app to learn Ruby on Rails",
     "skills": ["React", "CSS", "Ruby", "Rails"],
     "source": "https://github.com/alexknite/ruby-todo"
+  },
+  {
+    "title": "Social Media",
+    "imageSrc": "/assets/projects/social-media.png",
+    "description": "A simple social media app",
+    "skills": ["React", "Chakra", "Python", "Django"],
+    "source": "https://github.com/alexknite/social-media"
   }
 ]
